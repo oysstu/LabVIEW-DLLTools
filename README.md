@@ -11,7 +11,8 @@ For now, this is simply a set of tools used for my personal projects, and is not
 * Runtime exception class for returning exceptions to a LabVIEW error cluster
 
 ### Requirements
-* C++11 compatible compiler (VS2013 or newer will suffice)
+* C++11 compatible compiler (GCC 4.7+ / Intel C++ 12.1+ / Visual studio 2013+)
+* Include cintools in the LabVIEW folder and link with labview.lib
  
 ### Future plans
 * Examples for every feature
